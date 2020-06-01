@@ -17,4 +17,4 @@ PYTHONPATH=/path/to/thonny-websocket/ python -m thonny
 
 ## Usage in thonny
 
-You will be prompted to provide a server name. This is done via a dialog. For testing purposes you can use "ws://echo.websocket.org/". This server immeadiately echoes the message you send. To send a message select the "tools" section in the menu and then select "Send Hello". You can see all the communication on stdout.
+Click on the "Tools" section in the menu at the top of the program. And then select "Add WS Server". You will be asked to input a server address. This server immeadiately echoes the message you send. For testing purposes you can use "ws://echo.websocket.org/". You can click on the "Tools" section in the menu again and select "Send Message" to send a message. After that, you will be asked for the server address and message. You can close a connection by clicking on the "Tools" section in the menu and selecting "Close WS Server connection". Following that, you will be asked for the server address. You can see all the communication on stdout.
